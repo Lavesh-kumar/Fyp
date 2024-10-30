@@ -1,0 +1,24 @@
+{
+  "name": "fundripple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend": "cd frontend && npm start",
+    "backend": "cd backend && npm run dev",
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "jwt-decode": "^4.0.0",
+    "mongodb": "^6.7.0",
+    "react-credit-card-input": "^1.1.5",
+    "react-credit-cards": "^0.8.3",
+    "react-credit-cards-2": "^1.0.2",
+    "styled-components": "^6.1.12"
+  }
+}
